@@ -18,7 +18,7 @@ OUTPUT:
 import wx
 
 def uiget_file(wildcard='',message='pick a file'):
-        
+    app = wx.App(None)        
     style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST
     dialog = wx.FileDialog(None, message, wildcard=wildcard, style=style)
     if dialog.ShowModal() == wx.ID_OK:
