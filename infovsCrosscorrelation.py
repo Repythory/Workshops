@@ -74,6 +74,12 @@ def infoCross(a):
 
 
 
+def ciao():
+	
+	return print(ciao!!)
+
+
+
 
 
 
